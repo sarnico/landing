@@ -1,0 +1,23 @@
+.container{
+  width:70%;
+  margin: 0 auto;
+  padding: 15px 15px;
+  text-align: center;
+  }
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card{
+  padding: 40px 0px;
+  background-color: #d6dee4;
+  width: 280px;
+  height: 200px;
+}
+
+.card > i {
+  font-size: 40px;
+}

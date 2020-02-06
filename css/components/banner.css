@@ -1,0 +1,26 @@
+.banner{
+ /* display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-image: url(https://images.unsplash.com/photo-1524518668639-e6cc8c13ca08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
+  color:white;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+  margin: 20px;
+}
+
+.banner > a{
+  margin: 20px;
+  color: white;
+  background-color: #cd851b;
+  padding: 15px 15px;
+  border-radius: 15px;
+  transition: .5s;
+  opacity: .8;
+}
+
+.banner > a:hover{
+  opacity: 1;
+}
